@@ -27,8 +27,12 @@ export default function CardList(props: CardListProps) {
 				<div key={index}>{child}</div>
 			))}
 			{props.create && (
-				<CardBase className='bank-card-create' onClick={props.create} id={'0'}>
-					<h3 className='bank-card-name'>+</h3>
+				<CardBase
+					className='card-base card-create-base'
+					onClick={props.create}
+					id={'0'}
+				>
+					<h3>+</h3>
 				</CardBase>
 			)}
 		</div>

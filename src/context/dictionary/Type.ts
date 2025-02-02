@@ -32,6 +32,15 @@ type Dictionary = {
 	menu: {
 		dashboard: string;
 		settings: string;
+		products: string;
+		orders: string;
+	};
+	product: {
+		self: string;
+		title: string;
+		description: string;
+		price: string;
+		thumbnail: string;
 	};
 };
 

@@ -5,6 +5,8 @@ import { createBrowserRouter, Navigate } from 'react-router-dom';
 import menu from './privateMenu';
 import Dashboard from 'pages/dashboard';
 import Dictionary from 'context/dictionary/Type';
+import Products from 'pages/products';
+import Orders from 'pages/orders';
 
 export type PrivateRouterProps = {
 	theme: string;
@@ -27,6 +29,14 @@ export default function privateRouter(props: PrivateRouterProps) {
 					index: true,
 					path: '',
 					element: <Dashboard />,
+				},
+				{
+					path: 'products',
+					element: <Products />,
+				},
+				{
+					path: 'orders',
+					element: <Orders />,
 				},
 				{
 					path: 'settings',

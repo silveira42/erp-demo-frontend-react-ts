@@ -34,6 +34,15 @@ const pt_brDictionary: Dictionary = {
 	menu: {
 		dashboard: 'Painel',
 		settings: 'Configurações',
+		products: 'Produtos',
+		orders: 'Pedidos',
+	},
+	product: {
+		self: 'Produto',
+		title: 'Nome',
+		description: 'Descrição',
+		price: 'Preço',
+		thumbnail: 'Imagem',
 	},
 };
 

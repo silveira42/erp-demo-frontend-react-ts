@@ -1,0 +1,29 @@
+@import '../../../App.css';
+
+.product-card {
+	width: 700px;
+	background-color: var(--card-background);
+	color: var(--primary);
+	border: 1px solid var(--divider);
+	border-radius: 30px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: baseline;
+	cursor: pointer;
+}
+
+.product-card-image {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.product-card-image img {
+	width: 150px;
+	height: 150px;
+}

@@ -34,6 +34,15 @@ const enDictionary: Dictionary = {
 	menu: {
 		dashboard: 'Dashboard',
 		settings: 'Settings',
+		products: 'Products',
+		orders: 'Orders',
+	},
+	product: {
+		self: 'Product',
+		title: 'Name',
+		description: 'Description',
+		price: 'Price',
+		thumbnail: 'Image',
 	},
 };
 
