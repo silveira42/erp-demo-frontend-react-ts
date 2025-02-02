@@ -1,0 +1,15 @@
+---
+name: iris-erp-frontend-web-app-dev
+services:
+  app:
+    container_name: iris-erp-frontend-web-app-dev-c
+    image: iris-erp-frontend-web-app-dev-i
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+      - ./assets:/app/public/assets
+    ports:
+      - '3053:3000'
