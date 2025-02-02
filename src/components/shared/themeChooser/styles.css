@@ -1,0 +1,90 @@
+@import '../../../App.css';
+
+#theme-toggler {
+	display: none;
+}
+
+.theme-chooser {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--background);
+	transition: all var(--transition);
+	gap: 15px;
+}
+
+.toggler {
+	width: 50px;
+	height: 30px;
+	position: relative;
+	display: block;
+	visibility: visible;
+	background: var(--divider);
+	border-radius: 200px;
+	box-shadow: inset 0px 5px 15px rgba(150, 150, 150, 0.4),
+		inset 0px -5px 15px rgba(150, 150, 150, 0.4);
+	cursor: pointer;
+}
+
+.toggler:after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: var(--background);
+	border-radius: 180px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.theme-chooser input:checked + .toggler {
+	background: var(--divider);
+}
+
+.theme-chooser input:checked + .toggler:after {
+	left: 45px;
+	transform: translateX(-100%);
+	background: linear-gradient(180deg, #ffffff, #ffffff);
+}
+
+.toggler,
+.toggler:after {
+	transition: 0.3s;
+}
+
+.theme-chooser input {
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.theme-chooser img {
+	width: 30px;
+	height: 30px;
+}
+
+/* md */
+@media (max-width: 768px) {
+	.theme-chooser img {
+		display: none;
+	}
+
+	.toggler {
+		width: 46px;
+		height: 25px;
+	}
+
+	.toggler:after {
+		width: 19px;
+		height: 19px;
+		top: 3px;
+		left: 5px;
+	}
+
+	.theme-chooser input:checked + .toggler:after {
+		left: 42px;
+	}
+}

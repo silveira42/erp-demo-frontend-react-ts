@@ -1,0 +1,42 @@
+@import '../../../App.css';
+
+.sidebar-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
+	max-height: 20%;
+	max-width: 100%;
+	gap: 5px;
+}
+
+.sidebar-button-link {
+	text-decoration: none;
+	color: var(--primary);
+}
+
+.sidebar-button-link h4 {
+	text-decoration: none;
+	padding: 10px 5px;
+}
+
+.sidebar-icon {
+	color: var(--primary);
+	padding: 0px 5px;
+	width: 30px;
+	height: 30px;
+}
+
+/* md */
+@media (max-width: 768px) {
+	.sidebar-icon {
+		width: 30px;
+		height: 30px;
+	}
+
+	.sidebar-button-link h4 {
+		display: none;
+	}
+}
