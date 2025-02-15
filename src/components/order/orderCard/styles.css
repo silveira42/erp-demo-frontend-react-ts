@@ -1,0 +1,51 @@
+@import '../../../App.css';
+
+.order-card {
+	width: 1000px;
+	background-color: var(--card-background);
+	color: var(--primary);
+	border: 1px solid var(--divider);
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+
+.order-card-row {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	gap: 20px;
+}
+
+.order-card-id {
+	min-width: 400px;
+}
+
+.order-card-details {
+	min-width: 350px;
+}
+
+.order-card-total {
+	min-width: 150px;
+}
+
+.order-card-block {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.order-card-image {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.order-card-image img {
+	width: 150px;
+	height: 150px;
+}

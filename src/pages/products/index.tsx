@@ -77,7 +77,7 @@ export default function Products() {
 
 	return (
 		<div className={'container products'} data-theme={theme.getCurrent()}>
-			<h1>Welcome products!!</h1>
+			<h1>Cadastro de produtos</h1>
 			<ProductCardList
 				isLoading={isProductListLoading}
 				onCreate={openCreateModal}

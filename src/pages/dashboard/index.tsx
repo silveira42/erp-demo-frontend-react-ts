@@ -6,77 +6,7 @@ export default function Dashboard() {
 
 	return (
 		<div className='container dashboard' data-theme={theme.getCurrent()}>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
-			<h3>Welcome dashboard!!</h3>
+			<h1>Bem vindo ao ERP</h1>
 		</div>
 	);
 }

@@ -6,7 +6,7 @@ export default function Settings() {
 
 	return (
 		<div className='container settings' data-theme={theme.getCurrent()}>
-			<h1>Welcome settings!!</h1>
+			<h1>Configurações</h1>
 		</div>
 	);
 }

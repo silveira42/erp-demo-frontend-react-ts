@@ -1,12 +1,12 @@
 @import '../../App.css';
 
-.banks {
+.orders {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.bank-card-create {
+.order-card-create {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
